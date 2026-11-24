@@ -1,0 +1,37 @@
+{
+  "command": [
+    "node",
+    "app.mjs"
+  ],
+  "expected": {
+    "punches": [
+      [
+        0,
+        1,
+        "C4"
+      ],
+      [
+        8,
+        3,
+        "E4"
+      ],
+      [
+        16,
+        1,
+        "C4"
+      ]
+    ],
+    "skipped": [
+      [
+        1,
+        "C4",
+        "repeat too close"
+      ],
+      [
+        3,
+        "F4",
+        "pitch unavailable"
+      ]
+    ]
+  }
+}
